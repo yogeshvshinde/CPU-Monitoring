@@ -1,16 +1,19 @@
-How the Program Works
+Steps to perform
 ===================================
+
+Create a python virtual environment
+command : python3 -m venv .venv
 
 install psutil utility ( direct installtion)
 
-pip install -r .\requirements.txt (Using requirements.txt file )
+command : pip install -r requirements.txt (Using requirements.txt file )
 
 Command to install the psutil python library 
 
-pip install psutil
+command: pip install psutil
 
 ====================================
-code:
+How it works:
 
 1. psutil.cpu_percent(interval=1)
 
@@ -31,6 +34,15 @@ If CPU usage goes above 80%, it prints an alert.
 KeyboardInterrupt → Gracefully exits when you press Ctrl + C
 
 General Exception → Catches unexpected errors and prints them
+
+==========================================================
+
+Output Screenshot
+
+<img width="518" height="115" alt="image" src="https://github.com/user-attachments/assets/09993a62-e8e5-4b70-9ba3-3ba8e9c50fc2" />
+
+
+
 
 
 
